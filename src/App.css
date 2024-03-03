@@ -6,7 +6,6 @@
 body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  margin-left: 96px;
 }
 
 h1 {
