@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #191b1c;
+  --secondary-color: #bcb7af;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 76.98px;
+  font-size: 61.04px;
+}
+
+h2 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 61px;
+  font-size: 48.83px;
+}
+
+h3 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 48.8px;
+  font-size: 39.06px;
+}
+
+h4 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 39.1px;
+  font-size: 31.25px;
+}
+
+h5 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 31.3px;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Cabin Condensed", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+small {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12.8px;
+}
+
+.caption {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 12.8px;
+  font-size: 10.24px;
+}
