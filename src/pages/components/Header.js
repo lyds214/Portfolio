@@ -1,11 +1,17 @@
 import React from "react";
 import "../../App.css";
-import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-      <h2>My Header</h2>
+    <div
+      style={{
+        fontFamily: "Cabin Condensed",
+        height: "64px",
+        fontSize: "36px",
+        padding: "10px 0px 0px 28px",
+      }}
+    >
+      LY
     </div>
   );
 };
