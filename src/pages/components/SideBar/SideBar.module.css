@@ -1,0 +1,33 @@
+.sideBarBtn {
+  background-color: var(--secondary-color);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border-color: var(--secondary-color);
+  border-width: thin;
+  border-style: solid;
+  padding: 0px;
+  transition: width 0.3s, height 0.3s;
+}
+
+.sideBarBtn.clicked {
+  background-color: var(--primary-color);
+  border-color: var(--secondary-color);
+  width: 16px;
+  height: 16px;
+}
+
+.sideBarBtn:hover {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.container small {
+  margin-left: 10px;
+}
