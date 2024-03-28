@@ -2,4 +2,61 @@ button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-width: 0px;
+  margin-top: 36px;
+}
+
+.circle1 {
+  background-color: var(--primary-color);
+  width: 740px;
+  height: 740px;
+  border-radius: 50%;
+  border-color: var(--secondary-color);
+  border-width: thin;
+  border-style: solid;
+  padding: 0px;
+}
+
+.circle2 {
+  background-color: var(--primary-color);
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  border-color: var(--secondary-color);
+  border-width: 2px;
+  border-style: solid;
+  padding: 0px;
+}
+
+.line {
+  width: 402px;
+  height: 1px;
+  background-color: var(--secondary-color);
+}
+
+.diamond {
+  width: 12px;
+  height: 12px;
+  background-color: var(--secondary-color);
+  rotate: 45deg;
+}
+
+.underline {
+  display: flex;
+  align-items: center;
+  width: 442px;
+  height: 20px;
+  gap: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 440px;
+  /* background: red; */
+}
+
+.container h1 {
+  margin-bottom: 12px;
 }
