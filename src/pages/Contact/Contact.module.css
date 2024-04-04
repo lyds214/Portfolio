@@ -1,0 +1,45 @@
+.underline {
+  width: 182px;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+
+.square {
+  width: 10px;
+  height: 10px;
+  background-color: var(--secondary-color);
+}
+
+.circle {
+  width: 4px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+.header {
+}
+
+.container {
+  border-color: var(--secondary-color);
+  border-width: 2px;
+  border-style: solid;
+  border-left-color: var(--primary-color);
+  border-right-color: var(--primary-color);
+  height: 362px;
+  width: 765px;
+  position: relative;
+}
+
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.content h4 {
+  margin: 0;
+}

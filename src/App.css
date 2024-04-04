@@ -78,3 +78,10 @@ small {
   line-height: 12.8px;
   font-size: 10.24px;
 }
+
+.title {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 80px;
+}
