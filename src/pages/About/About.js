@@ -4,8 +4,10 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <img src={profile} />
+    <>
+      <div className={styles.imgContainer}>
+        <img src={profile} />
+      </div>
       <div className={styles.content}>
         <h1>ABOUT ME</h1>
         <p>N 36 ° 42' 5.257" W 118 ° 25' 21.589"</p>
@@ -23,7 +25,7 @@ const About = () => {
           piano.
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

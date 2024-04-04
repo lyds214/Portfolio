@@ -5,10 +5,14 @@
 }
 
 .content {
+  width: 50%;
+  float: right;
+  position: relative;
+  top: 50%;
+  margin-top: 14em;
 }
 
-img {
-}
-
-.container {
+.imgContainer {
+  width: 50%;
+  float: left;
 }
