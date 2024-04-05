@@ -32,4 +32,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgContainer {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  margin-top: 20px;
+}
+
+img {
+  position: relative;
 }
