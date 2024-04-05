@@ -33,15 +33,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.imgContainer {
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  gap: 64px;
-  margin-top: 20px;
-}
-
-img {
-  position: relative;
-}
